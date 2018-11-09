@@ -1,7 +1,6 @@
 <?php
 require 'flight/Flight.php';
-require './hash.php';
-Flight::set('key', "-snip-");
+Flight::set('key', "jhsdkfjahsdm");
 Flight::set('folder', "u/");
 
 Flight::route('POST /upload', function(){
